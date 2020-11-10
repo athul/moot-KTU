@@ -9,7 +9,7 @@ before_install:
 - sudo apt-get install -y texlive-full
 - wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-1-amd64.deb
 - yes | sudo dpkg -i pandoc-2.6-1-amd64.deb
-- pip install --user pandoc-fignos
+- pip3 install --user pandoc-fignos
 
 script: rake
 
