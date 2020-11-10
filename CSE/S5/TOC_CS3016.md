@@ -2,9 +2,9 @@
 title: Theory of Computation
 subtitle: KTU S5 CSE CS306
 ---
+
 # Module 1
 
----
 - FSM : Finite State Machine
 - CFL : Context Free Language
 - Turing Machine
@@ -13,7 +13,6 @@ FSM → CFL → Turing Machine
 
 > Language here is a **set of Strings**
 
---- 
 
 # FSM
 
@@ -55,7 +54,7 @@ $\Sigma^{*} = \Sigma^{0}\cup\Sigma^{1}\cup\Sigma^{2}\cup......\Sigma^{n}$
 
 ![FA-1](https://i.imgur.com/DlWVtCu.png)
 
----
+
 
 ### DFA - Deterministic Finite Automata
 - Simplest Model fo Computation
@@ -91,7 +90,7 @@ For the Above DFA, the values are
 | C | A | D |
 | D | B | C |
 
-----
+
 
 Example Question: Let L1= Set of all strings that stras with 0
 = {0,00,01,000,010,011,0000,....}. Design the DFA
