@@ -13,8 +13,7 @@ FSM → CFL → Turing Machine
 
 > Language here is a **set of Strings**
 
-
-# FSM
+## FSM
 
 - Symbol: `a b c 0 1 2 4...`
 - Alphabet : Denoted by $\Sigma$ is a collection of symbols
@@ -23,10 +22,10 @@ FSM → CFL → Turing Machine
     eg: a,b,c... or aa,bb,cc,...
 - Language : Set of Strings
     - Eg: $\Sigma = \{0,1\}$
-    - Set of all strings of Length 2: $\{00,01,10,11,...\}$
-    - Set of all strings of length 3: $\{000,001,010,....\}$
-    - Set of all strings that begin with 0: $\{0,001,010,...\}$
-    > Third example is an $\infin$ set
+    - Set of all strings of Length 2: $\{00,01,10,11\}$
+    - Set of all strings of length 3: $\{000,001,010\}$
+    - Set of all strings that begin with 0: $\{0,001,010\}$
+    - Third example is an $\infty$ set
 
 ### Powers of $\Sigma$
 
@@ -34,7 +33,7 @@ Let $\Sigma = \{0,1\}$
 
 - $\Sigma^{0}$ = Set of all strings of length 0: $\Sigma^{0} = \{\epsilon\}$  (Epsilon)
 
-> $\epsilon$ denotes all strings of length 0
+- $\epsilon$ denotes all strings of length 0
 
 - $\Sigma^{1}=$ Set of all strings of length 1; $\Sigma^{1} = \{0,1\}$
 - $\Sigma^{n}=$ Set of all strings of length n
@@ -42,19 +41,17 @@ Let $\Sigma = \{0,1\}$
 ### Cardinality
 
 - No of Elements in a set
-> Cardinality of $\Sigma^{n}=2^{n}$
+- Cardinality of $\Sigma^{n}=2^{n}$
 
 ### $\Sigma^{*}$
 
 $\Sigma^{*} = \Sigma^{0}\cup\Sigma^{1}\cup\Sigma^{2}\cup......\Sigma^{n}$  
 => $\{\epsilon\}\cup\{0,1\}\cup.....$  
-=> Set of all possible strinfgs of all length over $\{0,1\}$ -> $\infin$ set
+=> Set of all possible strinfgs of all length over $\{0,1\}$ -> $\infty$ set
 
-## Finite Automata
+### Finite Automata
 
 ![FA-1](https://i.imgur.com/DlWVtCu.png)
-
-
 
 ### DFA - Deterministic Finite Automata
 - Simplest Model fo Computation
@@ -99,9 +96,12 @@ Answer:
 
 ![DFA-2](https://i.imgur.com/b2TuDKV.png)
 
-> Here C is the **Dead State of Trap State**
+__Here C is the **Dead State of Trap State**__
 
 Example Question: Construct a DFA that accepts sets of all strings over {0,1} of length 2.
 
-Answer: $\Sigma =\{0,1\}$ and $L=\{00,01,10,11\}$
-![DFA-3](https://i.imgur.com/TPbqPkx.png)
+Answer: $\Sigma =\{0,1\}$ and $L=\{00,01,10,11\}$ 
+
+![DFA-3](https://i.imgur.com/e2XpZ9E.png)
+
+## Meale Machine
